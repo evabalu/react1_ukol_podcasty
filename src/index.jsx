@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client';
 import './global.css';
-import { Episode } from './Episode/episode';
+import { Episode } from './components/Episode/episode';
 import { episodes } from './podcasty';
 
 const App =()=> (
