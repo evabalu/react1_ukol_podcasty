@@ -6,7 +6,7 @@ import { episodes } from './podcasty';
 const App =()=> (
   <>
     <h1>Epizódy podcastu:</h1>
-    <ul className='Episode'>
+    <ul className='Episodes'>
       {episodes.map((episode) =>(
         <Episode
           key={episode.num}

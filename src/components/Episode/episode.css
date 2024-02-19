@@ -1,0 +1,40 @@
+
+.episodes-list {
+    max-width: 20rem;
+    padding: 2rem auto;
+  }
+  
+  .episode {
+     display: flex;
+    padding: 0.25rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .episode__num {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    flex: 0 0 auto;
+    font-size: 3rem;
+    font-weight: bold;
+    color: lightblue;
+    padding: 0.7rem;
+    }
+  
+  .episode__body {
+    padding: 0.7rem;
+    list-style-type: none;
+  }
+  
+  .episode__title {
+    margin-block-start: 0.2rem;
+    margin-block-end: 0.2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .episode__guest {
+    margin-block-start: 0.2rem;
+    margin-block-end: 0.2rem;
+    color: #999;
+  }
+  
